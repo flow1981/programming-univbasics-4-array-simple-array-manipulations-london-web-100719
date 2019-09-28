@@ -11,10 +11,8 @@ def using_pop(array)
 end
 
 def pop_with_args(array,num=2)
-  i=0
-  while i<num
-    i+=1;
-    array.pop;
+
+    array.pop(num)
   end
   array
 end
