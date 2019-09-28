@@ -14,7 +14,7 @@ def pop_with_args(array,num=2)
   i=0
   while i<num
     array.pop;
-    i++;
+    i+=1;
   end
   array
 end
