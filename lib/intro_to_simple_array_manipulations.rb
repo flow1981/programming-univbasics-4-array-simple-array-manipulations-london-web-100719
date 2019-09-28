@@ -16,7 +16,7 @@ end
 
 
 def using_insert(array, element)
-  array.insert;
+  array.insert(3,element);
 end
 
 def pop_with_args(array,num=2)
