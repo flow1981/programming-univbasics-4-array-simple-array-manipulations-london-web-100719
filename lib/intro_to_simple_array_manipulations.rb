@@ -19,11 +19,11 @@ def using_uniq(array)
 end
 
 def using_flatten(array)
-  array.uniq;
+  array.flatten;
 end
 
 def using_insert(array, element)
-  array.flatten;
+  array.insery(4,element);
 end
 
 def using_delete(array, string)
