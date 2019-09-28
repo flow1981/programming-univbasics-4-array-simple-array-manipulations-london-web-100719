@@ -14,6 +14,11 @@ def using_pop(array)
   array.pop;
 end
 
+
+def using_insert(array, element)
+  array.insert;
+end
+
 def pop_with_args(array,num=2)
     array.pop(num);
 end
