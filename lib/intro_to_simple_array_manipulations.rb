@@ -11,7 +11,7 @@ def using_pop(array)
 end
 
 def pop_with_args(array,num=2)
-  for (i=0,i<2,i++){
+  for (i=0;i<2;i++){
     array.pop;
   }
   array
