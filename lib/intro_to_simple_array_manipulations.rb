@@ -18,8 +18,12 @@ def using_uniq(array)
   array.uniq;
 end
 
+def using_flattenarray)
+  array.uniq;
+end
+
 def using_insert(array, element)
-  array.insert(4,element);
+  array.flatten;
 end
 
 def pop_with_args(array,num=2)
