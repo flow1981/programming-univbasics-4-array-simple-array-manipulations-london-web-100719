@@ -26,6 +26,10 @@ def using_insert(array, element)
   array.flatten;
 end
 
+def using_delete(array, string)
+  array.delete(string);
+end
+
 def pop_with_args(array,num=2)
     array.pop(num);
 end
