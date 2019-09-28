@@ -30,6 +30,10 @@ def using_delete(array, string)
   array.delete(string);
 end
 
+def using_delete_at(array, integer)
+  array.delete_at(integer);
+end
+
 def pop_with_args(array,num=2)
     array.pop(num);
 end
