@@ -16,7 +16,7 @@ def pop_with_args(array,num=2)
     array.pop;
     i++
   end
-  }
+  
   array
 end
 
